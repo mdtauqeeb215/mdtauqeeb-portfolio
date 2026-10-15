@@ -145,4 +145,4 @@ function draw(){const sy=scrollY/Math.max(1,document.body.scrollHeight);pts.rota
 function loop(){if(!vis||RM)return;t+=.016;draw();requestAnimationFrame(loop)}
 RM?draw():loop();
 }catch(e){}
-</script></body></html>
+</script><script>document.getElementById("ld")?.remove();</script></body></html>
